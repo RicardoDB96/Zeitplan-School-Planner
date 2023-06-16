@@ -7,7 +7,7 @@ This app was my first project on Android Development, develop in a span of two y
 - With the subjects created you will be able to write down your tasks, exams and reminders of each of them easily and quickly, and manage them in a simple way.
 - You can also create your class schedule, where you will see in a simple way when each of your classes starts or ends, or in which room they will take place.
 - Manage your grades and see your progress in each subject as well as set goals for each of your subjects.
--
+
 ## Screenshots
 | Home | Add Subject | Manage Tasks | School Schedule | Profile Information | Subject Information |
 | --- | --- | --- | --- | --- | --- |
