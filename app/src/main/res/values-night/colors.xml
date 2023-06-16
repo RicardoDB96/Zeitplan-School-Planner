@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3552DC</color>
+    <color name="statusBar">#000000</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="backgroundProgressBar">#FFFFFF</color>
+    <color name="backgroundCardButton">#2D2D2D</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="backgroundColorBottomSheet">#282828</color>
+    <color name="bottomNavigationColor">#121212</color>
+    <color name="iconColor">#B8B8B8</color>
+    <color name="disable">#5C5C5C</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="progressBar">#000000</color>
+    <color name="alternativeText">#000000</color>
+    <color name="toolbarIcon">#FFFFFF</color>
+    <color name="divider">#2E2E2E</color>
+    <color name="error">#CF6679</color>
+    <color name="default_line">#2C2C2C</color>
+    <color name="timetableBackground">#050505</color>
+    <color name="timetableText">#DDDDDD</color>
+    <color name="googleButtonColor">#0D0C0A</color>
+    <color name="buttonClick">#414141</color>
+    <color name="rippleEffect">#808080</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#C3C3C3</color>
+    <bool name="isLightMode">false</bool>
+</resources>

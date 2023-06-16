@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/topMenuItem">
+
+    <TextView
+        android:id="@+id/xXis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/timetableBackground"
+        android:gravity="center"
+        android:text="월"
+        android:textColor="@color/timetableText"
+        android:textSize="12sp" />
+
+</LinearLayout>

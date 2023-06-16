@@ -1,0 +1,317 @@
+<resources>
+    <string name="app_name" translatable="false">Zeitplan</string>
+    <string name="interstitialAdId" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="noAccount_text">Don\'t have an account?</string>
+    <string name="Password">Password</string>
+    <string name="LogInWGoogle">Login with Google</string>
+    <string name="LogIn">Log in</string>
+    <string name="Email">Email</string>
+    <string name="SingIn">Sign up</string>
+    <string name="insertLastNameRegister">Last name</string>
+    <string name="fullNameRegister">Full name</string>
+    <string name="WelcomeUser">"Welcome "</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="haveAnAccount">Already have an account?</string>
+    <string name="logIn">Log in</string>
+    <string name="Home">Home</string>
+    <string name="Agenda">Agenda</string>
+    <string name="Profile">Profile</string>
+    <string name="LogOut">Log Out</string>
+    <string name="registerTextView">Create account with your email</string>
+    <string name="loginWithYourEmail">Login with your email</string>
+    <string name="enterAPassword">Enter a password</string>
+    <string name="enterAEmail">Enter a email</string>
+    <string name="enterAFullName">Enter a name</string>
+    <string name="enterAConfirmPassword">Enter a confirm password</string>
+    <string name="errorLogInIncorrect">The email or password is incorrect</string>
+    <string name="passwordsAreDifferent">The passwords are different</string>
+    <string name="googleLogCouldNotStarted">The session with Google couldn\'t be started</string>
+    <string name="googleLogCancel">Google login was canceled</string>
+    <string name="enterEmailToRecoveryPassword">Please enter an email to be able to recover your password</string>
+    <string name="emailSent">The mail has been sent</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="Subjects">Subjects</string>
+    <string name="addANewSubject">Add a new subject</string>
+    <string name="nameOfTheSubject">Name of the subject</string>
+    <string name="classroomOfTheSubject">Classroom of the subject</string>
+    <string name="isItAnOnlineSubject">Is it an online subject?</string>
+    <string name="teachersName">Professor name</string>
+    <string name="subjectId">Subject ID</string>
+    <string name="joinAnAlreadyCreatedSubject">Join an already created subject?</string>
+    <string name="codeQROfTheSubjectId">Code QR of the subject ID</string>
+    <string name="addSubject">Add subject</string>
+    <string name="online">Online</string>
+    <string name="colors">Select a color</string>
+    <string name="select">Select color</string>
+    <string name="chooseAColor">Choose a color</string>
+    <string name="enterASubjectName">Enter a subject name</string>
+    <string name="enterAClassroom">Enter a classroom</string>
+    <string name="enterAProfessorName">Enter a professor name</string>
+    <string name="enterASubjectID">Enter a subject ID</string>
+    <string name="noNextClass">No upcoming classes</string>
+    <string name="editSubject">Edit Subject</string>
+    <string name="deleteSubject">Delete subject</string>
+    <string name="objective">Goal: </string>
+    <string name="thereIsNoGoal">There\'s no goal</string>
+    <string name="yourSubject">Your subjects</string>
+    <string name="goToSubjects">Go to subjects</string>
+    <string name="createNewSubject">Create new subject</string>
+    <string name="deleting">Deleting…</string>
+    <string name="subjectInformation">Subject information</string>
+    <string name="saveChanges">Save changes</string>
+    <string name="yourAverage">Your average</string>
+    <string name="average">Average</string>
+    <string name="yourObjective">Your objective</string>
+    <string name="schedule">Schedule</string>
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    <string name="task">Task</string>
+    <string name="timetable">Timetable</string>
+    <string name="gradesTV">Grades</string>
+    <string name="addATitle">Add a title</string>
+    <string name="selectASubject">Select a subject</string>
+    <string name="selectDeadline">Select deadline</string>
+    <string name="selectTheTypeOfTask">Select the type of task</string>
+    <string name="descriptionOfTheTask">Description of the task</string>
+    <string name="createANewTask">Create a new task</string>
+    <string name="No">No</string>
+    <string name="deleteSubjectMessage">Are you sure you want to delete this subject? You will lose all the data related to the subject.</string>
+    <string name="Yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="recoveryPassword">Recover password</string>
+    <string name="recoveryPasswordMessage">We have sent an email, check your tray to recover your password.</string>
+    <string name="selectDate">Select date</string>
+    <string name="addTask">Add task</string>
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="SundayC">Sunday</string>
+    <string name="MondayC">Monday</string>
+    <string name="TuesdayC">Tuesday</string>
+    <string name="WednesdayC">Wednesday</string>
+    <string name="ThursdayC">Thursday</string>
+    <string name="FridayC">Friday</string>
+    <string name="SaturdayC">Saturday</string>
+    <string name="Exam">Exam</string>
+    <string name="Project">Project</string>
+    <string name="Homework">Homework</string>
+    <string name="Teamwork">Teamwork</string>
+    <string name="PartialExam">Partial Exam</string>
+    <string name="QuickTest">Quick Test</string>
+    <string name="joinCreatedSubject">Join created subject</string>
+    <string name="scanQRCode">Scan QR code</string>
+    <string name="shareSubject">Share subject</string>
+    <string name="orScanIt">Or scan it</string>
+    <string name="thisFeatureIsOnlyAvailableWithTheInternet">This feature is only available with the Internet</string>
+    <string name="theIDCodeShouldStartWith">The ID code should start with \"#\"</string>
+    <string name="theIDCodeOfTheSubjectDoesNotExist">The ID code of the subject does not exist</string>
+    <string name="permissionToUseCameraRejected">Permission to use camera rejected</string>
+    <string name="permissionDenied">Permission denied</string>
+    <string name="markTaskAsNotCompleted">Not completed</string>
+    <string name="editTask">Edit task</string>
+    <string name="deleteTask">Delete task</string>
+    <string name="upcomingTasks">Upcoming tasks</string>
+    <string name="pendingTasks">Pending tasks</string>
+    <string name="deleteTaskMessage">Are you sure to delete this task? You will lose all data related to this task.</string>
+    <string name="deadline">Deadline</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="taskDetails">Task Details</string>
+    <string name="showFinishedTasks">Show finished tasks</string>
+    <string name="hideFinishedTasks">Hide finished tasks</string>
+    <string name="markTaskAsCompleted">Completed</string>
+    <string name="finishOn">Finished -</string>
+    <string name="acronymOfTheSubject">Acronym of the subject</string>
+    <string name="enterAcronymSubject">Enter an acronym for the subject</string>
+    <string name="theAcronymMustBeLess8Characters">The acronym must be less than 8 characters</string>
+    <string name="thisValueCannotBeChangedInTheFuture">This value cannot be changed in the future</string>
+    <string name="youHaveNoSubjectsCreatedOrYouHaveNotJoinedOne">You have no subjects created</string>
+    <string name="noUpcomingTasks">No upcoming tasks</string>
+    <string name="theme">Theme</string>
+    <string name="darkMode">Dark</string>
+    <string name="lightMode">Light</string>
+    <string name="systemDefault">System default</string>
+    <string name="about">About</string>
+    <string name="closeCurrentSession">Close current session</string>
+    <string name="openSourceLibraries">Open source libraries</string>
+    <string name="openSourceLicense">Open source licenses</string>
+    <string name="notifications">Notifications</string>
+    <string name="notificationsConfig">Notifications settings</string>
+    <string name="general">General</string>
+    <string name="generalConfig">General application settings</string>
+    <string name="configuration">Configuration</string>
+    <string name="cancel">Cancel</string>
+    <string name="zeitplanAbout">\n<b>Zeitplan 1.0.5 (6)</b>. Organize your school life in the best way. Manage your assignments, homework and grades easily.\n \nDeveloped by <b>Ricardo Domínguez Bermejo.</b></string>
+    <string name="close">Close</string>
+    <string name="currentGrades">Current grades</string>
+    <string name="upcomingTasksTV">Upcoming Tasks</string>
+    <string name="noTasksNext7Days">There are no tasks in the next 7 days</string>
+    <string name="youCannotCreateMore12Subjects">You cannot create more than 12 subjects</string>
+    <string name="youHaveReachedDeleteOnesCurrentlyHave">You have reached the limit of subjects created or joined, if you want to create another subject, delete one of the ones you currently have</string>
+    <string name="aboutZeitplan">About Zeitplan</string>
+    <string name="setObjective">Set objective</string>
+    <string name="set">Set</string>
+    <string name="enterAGoal">Enter a objective</string>
+    <string name="theObjectiveLessOrEqual100">The objective must be less than or equal to 100</string>
+    <string name="editObjective">Edit objective</string>
+    <string name="goalProgress">Goal progress</string>
+    <string name="noGrades">No grades</string>
+    <string name="taskMustHaveATitle">Task must have a title</string>
+    <string name="createANewGrade">Create a new grade</string>
+    <string name="errorWhenTryingCreateASubject">Error when trying to create a subject</string>
+    <string name="theEmailAddressIsInvalid">The email address is invalid</string>
+    <string name="theGivenPasswordIsInvalid">The given password is invalid (Password should be at least 6 characters)</string>
+    <string name="theEmailAddressIsAlreadyInUseByAnotherAccount">The email address is already in use by another account</string>
+    <string name="aNetworkErrorHasOccurred">A network error has occurred</string>
+    <string name="addToSchedule">Add to schedule</string>
+    <string name="addSchedule">Add schedule</string>
+    <string name="selectADay">Select a day</string>
+    <string name="selectAStartTime">Select a start time</string>
+    <string name="selectAnEndTime">Select an end time</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="deleteClassScheduleMessage">Are you sure you want to delete this class schedule?</string>
+    <string name="deleteClassSchedule">Delete class schedule</string>
+    <string name="theEndTimeCannotGoBeforeTheStartTime">The end time cannot go before the start time</string>
+    <string name="logOutMessage">Are you sure? Logging out will remove all Zeitplan data from this device.</string>
+    <string name="editSchedule">Edit schedule</string>
+    <string name="registerCheckBoxAccept">By creating an account you agree to the\nTerms of Services and Privacy Policy</string>
+    <string name="TaC">Terms of Services</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="subjectInformationTV">Subject Information</string>
+    <string name="countsForGlobalGrade">Take into account for the general grade</string>
+    <string name="doNotCountGeneralGrade">Do not take into account for the general grade</string>
+    <string name="accept">Accept</string>
+    <string name="changeName">Change name</string>
+    <string name="changeProfilePicture">Set profile picture</string>
+    <string name="profilePictureChanged">Profile picture changed</string>
+    <string name="profileNameChanged">Profile name changed</string>
+    <string name="license">License</string>
+    <string name="openSourceLibrariesToolbar">Open Source Libraries</string>
+    <string name="addAGrade">Add a grade</string>
+    <string name="addWeight">Add weight</string>
+    <string name="addGradeTitle">Add grade title</string>
+    <string name="addGrade">Add grade</string>
+    <string name="seeAllGrades">See all grades</string>
+    <string name="deleteGrade">Delete grade</string>
+    <string name="deleteGradeMessage">Are you sure you want to delete this grade?</string>
+    <string name="editGrade">Edit Grade</string>
+    <string name="reminder">Reminder</string>
+    <string name="gradeTitleError">Grade must have a title</string>
+    <string name="gradeErrorMessage">Insert a grade</string>
+    <string name="gradeWeightErrorMessage">Insert a weight</string>
+    <string name="wrongGradeValueMessage">The grade must be less than 100 and greater than 0</string>
+    <string name="wrongWeightValueMessage">Grade weight must be less than 100 and greater than 0</string>
+    <string name="wrongWeightErrorMessage">Insert a weight value for the correct grade</string>
+    <string name="wrongGradeErrorMessage">Insert a correct grade value</string>
+    <string name="currentGrade">Current grade</string>
+    <string name="totalPoints">Total points</string>
+    <string name="pointsObtained">Points obtained</string>
+    <string name="mediaAccessDenied">Media access denied</string>
+    <string name="taskSettings">Task settings</string>
+    <string name="roundGrades">Round grades</string>
+    <string name="editPhoto">Edit Photo</string>
+    <string name="website">Website</string>
+    <string name="academicInformation">Academic Information</string>
+    <string name="universityOrInstitution">University or institution</string>
+    <string name="careerOrCourse">Career or course</string>
+    <string name="totalPeriodsCareerCourse">Total periods of the career or course</string>
+    <string name="save">Save</string>
+    <string name="bimester">Bimesters</string>
+    <string name="trimester">Trimesters</string>
+    <string name="fourMonthPeriod">Four-month periods</string>
+    <string name="semesters">Semesters</string>
+    <string name="year">Years</string>
+    <string name="youMustWriteUniversityInstitution">You must write a university or institution</string>
+    <string name="youMustWriteCareerCourse">You must write a career or course</string>
+    <string name="currentBimester">Current bimester</string>
+    <string name="currentTrimester">Current trimester</string>
+    <string name="currentFourPeriod">Current four-month period</string>
+    <string name="currentSemester">Current semester</string>
+    <string name="currentYear">Current year</string>
+    <string name="objectives">Objectives</string>
+    <string name="youHaveNoSetObjectives">You have no set objectives</string>
+    <string name="nextBimester">Go to the next bimester</string>
+    <string name="nextTrimester">Go to next trimester</string>
+    <string name="nextFourPeriod">Go to next four-month period</string>
+    <string name="nextSemester">Go to next semester</string>
+    <string name="nextYear">Go to next year</string>
+    <string name="nextBimesterTitle">Are you sure to switch to the next bimester?</string>
+    <string name="nextTrimesterTitle">Are you sure to switch to the next trimester?</string>
+    <string name="nextFourPeriodTitle">Are you sure to switch to the next four-month period?</string>
+    <string name="nextSemesterTitle">Are you sure to switch to the next semester?</string>
+    <string name="nextYeatTitle">Are you sure to switch to the next year?</string>
+    <string name="nextPeriodMessage">"When changing the period, your data on the subjects will not be lost, but the data on the tasks will be erased within a period higher of one year after the corresponding subject was created.\n\nTo go back to past periods, go to Settings > General > Change "</string>
+    <string name="changeBimester">Change bimester</string>
+    <string name="changeTrimester">Change trimester</string>
+    <string name="changeFourPeriod">Change four-month period</string>
+    <string name="changeSemester">Change semester</string>
+    <string name="changeYear">Change year</string>
+    <string name="changePeriod">Change period</string>
+    <string name="summaryOfGrades">Summary of grades</string>
+    <string name="createAccountGoogle">Create account with Google</string>
+    <string name="notRegisteredAccountGoogle">Could not login with this Google account, please try a Zeitplan registered account.</string>
+
+    <string-array name="day">
+        <item>@string/Monday</item>
+        <item>@string/Tuesday</item>
+        <item>@string/Wednesday</item>
+        <item>@string/Thursday</item>
+        <item>@string/Friday</item>
+        <item>@string/Saturday</item>
+    </string-array>
+
+    <string-array name="dayC">
+        <item>@string/MondayC</item>
+        <item>@string/TuesdayC</item>
+        <item>@string/WednesdayC</item>
+        <item>@string/ThursdayC</item>
+        <item>@string/FridayC</item>
+        <item>@string/SaturdayC</item>
+    </string-array>
+
+    <string-array name="period">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="durationType">
+        <item>@string/bimester</item>
+        <item>@string/trimester</item>
+        <item>@string/fourMonthPeriod</item>
+        <item>@string/semesters</item>
+        <item>@string/year</item>
+    </string-array>
+</resources>

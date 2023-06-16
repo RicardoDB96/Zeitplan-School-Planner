@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/Home"/>
+
+    <item
+        android:id="@+id/taskFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_task"
+        android:title="@string/Agenda"/>
+
+    <item
+        android:id="@+id/scheduleFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_timetable"
+        android:title="@string/timetable"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/Profile"/>
+</menu>

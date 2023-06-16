@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.domberdev.zeitplan.home.ui.HomeFragment"
+        android:label="@string/Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/homeToInfoSubject"
+            app:destination="@id/subjectInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToNewSubject"
+            app:destination="@id/newSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToSubject"
+            app:destination="@id/subjectsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToEditSubject"
+            app:destination="@id/editSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToScannerQR"
+            app:destination="@id/scannerQRFragment"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToTaskInfo"
+            app:destination="@id/taskInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/homeToNewTask"
+            app:destination="@id/createNewTaskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_newGradeFragment"
+            app:destination="@id/newGradeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newSubjectFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.NewSubjectFragment"
+        android:label="@string/addANewSubject"
+        tools:layout="@layout/fragment_new_subject" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.domberdev.zeitplan.profile.ui.ProfileFragment"
+        android:label="@string/Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/profileToConfiguration"
+            app:destination="@id/configurationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/newPeriodAction"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="com.domberdev.zeitplan.agenda.ui.TaskFragment"
+        android:label="@string/Agenda"
+        tools:layout="@layout/fragment_task" >
+        <action
+            android:id="@+id/taskToAddTask"
+            app:destination="@id/createNewTaskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/taskToEditTask"
+            app:destination="@id/editTaskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/taskToInfoTask"
+            app:destination="@id/taskInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.SubjectsFragment"
+        android:label="@string/Subjects"
+        tools:layout="@layout/fragment_subjects">
+        <action
+            android:id="@+id/subjectToInfoSubject"
+            app:destination="@id/subjectInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectToNewSubject"
+            app:destination="@id/newSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectToEditSubject"
+            app:destination="@id/editSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectToScanner"
+            app:destination="@id/scannerQRFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectInfoFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.SubjectInfoFragment"
+        tools:layout="@layout/fragment_subject_info" >
+        <action
+            android:id="@+id/subjectInfoToTaskInfo"
+            app:destination="@id/taskInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectInfoToEditSubject"
+            app:destination="@id/editSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectInfoToSchedule"
+            app:destination="@id/scheduleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/scheduleFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/subjectInfoToNewTask"
+            app:destination="@id/createNewTaskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectInfoToNewGrade"
+            app:destination="@id/newGradeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectInfoToEditGrade"
+            app:destination="@id/editGradeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/subjectInfoToGradesFragment"
+            app:destination="@id/gradesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/editSubjectFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.EditSubjectFragment"
+        android:label="@string/editSubject"
+        tools:layout="@layout/fragment_edit_subject" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.domberdev.zeitplan.schedule.ui.ScheduleFragment"
+        android:label="@string/timetable"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/scheduleToSubjectInfo"
+            app:destination="@id/subjectInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/scheduleToNewSubject"
+            app:destination="@id/newSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewTaskFragment"
+        android:name="com.domberdev.zeitplan.agenda.ui.CreateNewTaskFragment"
+        android:label="@string/createANewTask"
+        tools:layout="@layout/fragment_create_new_task" >
+        <action
+            android:id="@+id/newTaskToNewSubject"
+            app:destination="@id/newSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/newTaskToSubjectInfo"
+            app:destination="@id/subjectInfoFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/subjectInfoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addScheduleFragment"
+        android:name="com.domberdev.zeitplan.schedule.ui.AddScheduleFragment"
+        android:label="fragment_add_subject_to_timetable"
+        tools:layout="@layout/fragment_add_schedule" />
+    <fragment
+        android:id="@+id/scannerQRFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.ScannerQRFragment"
+        android:label="@string/scanQRCode"
+        tools:layout="@layout/fragment_scanner_qr" >
+        <action
+            android:id="@+id/scannerToJoinToSubject"
+            app:destination="@id/joinToSubjectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinToSubjectFragment"
+        android:name="com.domberdev.zeitplan.subjects.ui.JoinToSubjectFragment"
+        android:label="@string/joinCreatedSubject"
+        tools:layout="@layout/fragment_join_to_subject" >
+        <action
+            android:id="@+id/joinToSubjectToHome"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTaskFragment"
+        android:name="com.domberdev.zeitplan.agenda.ui.EditTaskFragment"
+        android:label="@string/editTask"
+        tools:layout="@layout/fragment_edit_task" >
+        <action
+            android:id="@+id/editTaskToTaskFragment"
+            app:destination="@id/taskFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/taskFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/editTaskToNewSubject"
+            app:destination="@id/newSubjectFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/editTaskToHomeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/editTaskToSubjectInfo"
+            app:destination="@id/subjectInfoFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/subjectInfoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskInfoFragment"
+        android:name="com.domberdev.zeitplan.agenda.ui.TaskInfoFragment"
+        android:label="@string/taskDetails"
+        tools:layout="@layout/fragment_task_info" >
+        <action
+            android:id="@+id/infoTaskToEditTask"
+            app:destination="@id/editTaskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/configurationFragment"
+        android:name="com.domberdev.zeitplan.profile.ui.ConfigurationFragment"
+        android:label="fragment_configuration"
+        tools:layout="@layout/fragment_configuration" >
+        <action
+            android:id="@+id/configurationToGeneralSettings"
+            app:destination="@id/generalSettingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/configurationToLicensesFragment"
+            app:destination="@id/openSourceLicenseFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/editScheduleFragment"
+        android:name="com.domberdev.zeitplan.schedule.ui.EditScheduleFragment"
+        android:label="fragment_edit_schedule"
+        tools:layout="@layout/fragment_edit_schedule" />
+    <fragment
+        android:id="@+id/generalSettingFragment"
+        android:name="com.domberdev.zeitplan.profile.ui.GeneralSettingFragment"
+        android:label="fragment_general_setting"
+        tools:layout="@layout/fragment_general_setting" >
+        <action
+            android:id="@+id/changePeriodAction"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/openSourceLicenseFragment"
+        android:name="com.domberdev.zeitplan.profile.ui.OpenSourceLicenseFragment"
+        android:label="fragment_open_source_license"
+        tools:layout="@layout/fragment_open_source_license" />
+    <fragment
+        android:id="@+id/newGradeFragment"
+        android:name="com.domberdev.zeitplan.grades.ui.NewGradeFragment"
+        android:label="fragment_new_grade"
+        tools:layout="@layout/fragment_new_grade" />
+    <fragment
+        android:id="@+id/editGradeFragment"
+        android:name="com.domberdev.zeitplan.grades.ui.EditGradeFragment"
+        android:label="fragment_edit_grade"
+        tools:layout="@layout/fragment_edit_grade" />
+    <fragment
+        android:id="@+id/gradesFragment"
+        android:name="com.domberdev.zeitplan.grades.ui.GradesFragment"
+        android:label="fragment_grades"
+        tools:layout="@layout/fragment_grades" >
+        <action
+            android:id="@+id/gradesFragmentToEditGrade"
+            app:destination="@id/editGradeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/gradesFragmentToNewGrade"
+            app:destination="@id/newGradeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+</navigation>

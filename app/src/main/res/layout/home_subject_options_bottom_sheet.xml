@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/goToSubjectBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ripple_effect"
+        android:drawablePadding="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:text="@string/goToSubjects"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:textSize="14sp"
+        app:drawableStartCompat="@drawable/subject_bottomsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/createNewSubjectBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect"
+        android:drawablePadding="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:text="@string/createNewSubject"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:textSize="14sp"
+        app:drawableStartCompat="@drawable/add_normal_bottomsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goToSubjectBottom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
