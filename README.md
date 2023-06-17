@@ -11,7 +11,7 @@ This app was my first project on Android Development, develop in a span of two y
 ## Screenshots
 | Home | Add Subject | Manage Tasks | School Schedule | Profile Information | Subject Information |
 | --- | --- | --- | --- | --- | --- |
-| ![Home](screenshots/1.png) | ![Add Subject](screenshots/2.png) | ![Manage Tasks](screenshots/3.png) | ![School Schedule](screenshots/4.png) | ![Profile Information](screenshots/5.png)  | ![Subject Information](screenshots/5.png) |
+| ![Home](screenshots/1.png) | ![Add Subject](screenshots/2.png) | ![Manage Tasks](screenshots/3.png) | ![School Schedule](screenshots/4.png) | ![Profile Information](screenshots/5.png)  | ![Subject Information](screenshots/6.png) |
 
 ## Used Technologies & Open-Source libraries
 - Minimum SDK level 21
