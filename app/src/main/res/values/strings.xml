@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Zeitplan</string>
-    <string name="interstitialAdId" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="noAccount_text">Don\'t have an account?</string>
     <string name="Password">Password</string>
     <string name="LogInWGoogle">Login with Google</string>
